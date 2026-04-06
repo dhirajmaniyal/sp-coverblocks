@@ -95,7 +95,7 @@
       whatsappBtn.addEventListener('click', (e) => {
         e.preventDefault();
         // Replace with your WhatsApp number (include country code, no + or spaces)
-        const phoneNumber = '1234567890';
+        const phoneNumber = '919820375365';
         const message = encodeURIComponent('Hi, I am interested in your concrete cover blocks. Please share more details.');
         window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
       });
